@@ -1,0 +1,11 @@
+/home/adriano/dotnet/Play.Common/src/Play.Common/bin/Debug/net8.0/Play.Common.deps.json
+/home/adriano/dotnet/Play.Common/src/Play.Common/bin/Debug/net8.0/Play.Common.dll
+/home/adriano/dotnet/Play.Common/src/Play.Common/bin/Debug/net8.0/Play.Common.pdb
+/home/adriano/dotnet/Play.Common/src/Play.Common/obj/Debug/net8.0/Play.Common.GeneratedMSBuildEditorConfig.editorconfig
+/home/adriano/dotnet/Play.Common/src/Play.Common/obj/Debug/net8.0/Play.Common.AssemblyInfoInputs.cache
+/home/adriano/dotnet/Play.Common/src/Play.Common/obj/Debug/net8.0/Play.Common.AssemblyInfo.cs
+/home/adriano/dotnet/Play.Common/src/Play.Common/obj/Debug/net8.0/Play.Common.csproj.CoreCompileInputs.cache
+/home/adriano/dotnet/Play.Common/src/Play.Common/obj/Debug/net8.0/Play.Common.dll
+/home/adriano/dotnet/Play.Common/src/Play.Common/obj/Debug/net8.0/refint/Play.Common.dll
+/home/adriano/dotnet/Play.Common/src/Play.Common/obj/Debug/net8.0/Play.Common.pdb
+/home/adriano/dotnet/Play.Common/src/Play.Common/obj/Debug/net8.0/ref/Play.Common.dll
