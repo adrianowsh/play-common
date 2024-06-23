@@ -9,3 +9,5 @@
 /home/adriano/dotnet/Play.Common/src/Play.Common/obj/Debug/net8.0/refint/Play.Common.dll
 /home/adriano/dotnet/Play.Common/src/Play.Common/obj/Debug/net8.0/Play.Common.pdb
 /home/adriano/dotnet/Play.Common/src/Play.Common/obj/Debug/net8.0/ref/Play.Common.dll
+/home/adriano/dotnet/Play.Common/src/Play.Common/obj/Debug/net8.0/Play.Common.sourcelink.json
+/home/adriano/dotnet/Play.Common/src/Play.Common/obj/Debug/net8.0/Play.Common.csproj.AssemblyReference.cache
