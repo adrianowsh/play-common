@@ -9,9 +9,9 @@ public sealed class MongoRepository<T> : IRepository<T> where T : Entity
     private readonly IMongoCollection<T> dbCollection;
     private readonly FilterDefinitionBuilder<T> filterBuilder = Builders<T>.Filter;
 
-    public MongoRepository(IMongoDatabase database)
+    public MongoRepository(IMongoDatabase database, string collectionName)
     {
-        dbCollection = database.GetCollection<T>($"{nameof(T)}s");
+        dbCollection = database.GetCollection<T>(collectionName);
     }
     public async Task<IReadOnlyCollection<T>> GetAllAsync()
     {

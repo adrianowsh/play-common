@@ -5,7 +5,7 @@
   },
   "projects": {
     "/home/adriano/dotnet/Play.Common/src/Play.Common/Play.Common.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "/home/adriano/dotnet/Play.Common/src/Play.Common/Play.Common.csproj",
         "projectName": "Play.Common",
