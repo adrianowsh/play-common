@@ -19,6 +19,10 @@ public static class DependencyInjection
                 var rabbitMqSettings = configuration.GetSection(nameof(RabbitMqSettings)).Get<RabbitMqSettings>();
                 configurator.Host(rabbitMqSettings.Host);
                 configurator.ConfigureEndpoints(context, new KebabCaseEndpointNameFormatter(serviceSettings.ServiceName, false));
+                configurator.UseMessageRetry(retryConfigurator =>
+                {
+                    retryConfigurator.Interval(3, TimeSpan.FromSeconds(5));
+                });
             });
         });
         services.Configure<MassTransitHostOptions>(options =>
