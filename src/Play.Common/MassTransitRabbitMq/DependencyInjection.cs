@@ -25,6 +25,7 @@ public static class DependencyInjection
                 });
             });
         });
+
         services.Configure<MassTransitHostOptions>(options =>
         {
             options.WaitUntilStarted = true;
