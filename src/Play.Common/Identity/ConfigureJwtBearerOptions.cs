@@ -24,6 +24,7 @@ public sealed class ConfigureJwtBearerOptions : IConfigureNamedOptions<JwtBearer
 
             options.Authority = serviceSettings.Authority;
             options.Audience = serviceSettings.ServiceName;
+            options.MapInboundClaims = false;
             options.TokenValidationParameters = new TokenValidationParameters
             {
                 NameClaimType = "name",

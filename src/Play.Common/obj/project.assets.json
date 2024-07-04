@@ -2058,7 +2058,7 @@
     "/home/adriano/.nuget/packages/": {}
   },
   "project": {
-    "version": "1.2.2",
+    "version": "1.2.3",
     "restore": {
       "projectUniqueName": "/home/adriano/dotnet/Play.Common/src/Play.Common/Play.Common.csproj",
       "projectName": "Play.Common",
